@@ -3887,5 +3887,8 @@
 	});
 	
 
+	// Provide access to the host jQuery object (circular reference)
+	Selectize.$ = $;
+
 	return Selectize;
 }));
